@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <fragment
+            class="org.rvinowise.ninja_dash.activities.fragments.Google_fragment"
+            android:id="@+id/fragment_google"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_google"
+            />
+
+        <fragment
+            class="org.rvinowise.ninja_dash.activities.fragments.Facebook_fragment"
+            android:id="@+id/fragment_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_facebook"
+            />
+
+        </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_show_leaderboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_show_leaderboard"
+        style="@style/AppTheme.TextAppearance.Button_social"
+        android:layout_margin="0dp"
+        />
+
+    <Button
+        android:id="@+id/btn_sign_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_out"
+        style="@style/AppTheme.TextAppearance.Button_social"
+        android:layout_margin="0dp"
+        />
+
+</LinearLayout>

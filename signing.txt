@@ -1,0 +1,36 @@
+keytool -exportcert -keystore path-to-debug-or-production-keystore -list -v
+
+
+keytool -exportcert -keystore "C:\ydisk\program\keystore\keystore.jks" -list -v
+
+
+
+bumblebee_jumper.jks
+SHA1: 81:73:E2:4A:0F:2B:9A:E1:E6:97:DC:20:8F:6B:9C:87:55:B0:86:83
+
+keystore.jks
+SHA1: 09:98:51:7A:17:B5:A9:1B:54:48:66:3E:70:A7:AC:D7:43:86:44:B3
+
+debug.keystore
+SHA1: BE:FD:CA:05:08:EC:70:B6:22:F4:CD:66:41:6F:7D:20:12:C8:8A:C4
+
+
+
+
+Android client 2
+1099309192293-focvph2up580sjukbph435n9djc6tfh7.apps.googleusercontent.com
+
+
+
+"C:\Android\Android Studio\jre\bin\keytool.exe" -exportcert -alias androiddebugkey -keystore %HOMEPATH%\.android\debug.keystore | "C:\Android\Android Studio\jre\bin\openssl" sha1 -binary | "C:\Android\Android Studio\jre\bin\openssl" base64
+
+Facebook Development KeyHash vv3KBQjscLYi9M1mQW99IBLIisQ=
+Facebook Release KeyHash NfgDlIG7XWJzUZRUL+bZySrMX1Q=
+
+"C:\Android\Android Studio\jre\bin\keytool.exe" -exportcert -alias androiddebugkey -keystore "C:\ydisk\program\keystore\bumblebee_jumper.jks" | openssl sha1 -binary | openssl base64
+
+C:\ydisk\program\keystore\bumblebee_jumper.jks
+
+
+
+

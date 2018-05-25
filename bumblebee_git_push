@@ -1,0 +1,9 @@
+#!/bin/sh
+cd /home/rv/program/bumblebee/
+git config --global username rvinowise
+#git config --global email rvinowise@gmail.com
+git add .
+git commit
+git push
+pause
+

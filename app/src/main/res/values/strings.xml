@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- start menu settings (pre-starting) -->
+    <string name="lab_hello">Hello, %1$s</string>
+    <string name="lab_hello_anonimous">Hello, anonymous</string>
+    <string name="btn_start_game">Start game</string>
+    <string name="btn_show_leaderboard">Scores</string>
+
+    <!-- leaderboard settings (player signing in) -->
+    <string name="sign_in_why">Sign in for saving your score</string>
+    <string name="you_are_signed_in">You are signed in</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_out">Sign out</string>
+    <string name="signing_other_error">There was an issue with sign in. Please try again later.</string>
+    <string name="leaderboards_not_available">please sign in to view leaderboard</string>
+    <string name="player_anonimous">Anonimous</string>
+    <string name="authorized_yout_score_is">%1$s, your score is:</string>
+    <string name="yout_score_is">Your score is:</string>
+    <string name="sign_in_problem">problem with singing in</string>
+    <string name="lab_google_frame">google</string>
+    <string name="lab_facebook_frame">facebook</string>
+
+</resources>

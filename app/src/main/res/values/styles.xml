@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+
+    </style>
+
+
+    <style name="AppTheme.FullScreen" parent="AppTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <!-- Menu Text -->
+    <style name="AppTheme.TextAppearance.Menu_info" parent="AppTheme">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Menu_score" parent="AppTheme">
+        <item name="android:textSize">60sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff5000</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Menu_button" parent="AppTheme">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_selector</item>
+    </style>
+
+    <style name="AppTheme.TextAppearance.Button_social" parent="AppTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button_selector</item>
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:height">20dp</item>
+    </style>
+
+
+</resources>

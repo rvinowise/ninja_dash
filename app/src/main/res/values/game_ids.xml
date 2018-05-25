@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Google services-->
+    <string name="app_id">1099309192293</string>
+    <string name="leaderboard_old">CgkI5ai8n_8fEAIQAA</string>
+    <string name="leaderboard">CgkI5ai8n_8fEAIQCQ</string>
+
+    <string name="achievement_prime">CgkI5ai8n_8fEAIQAQ</string>
+    <string name="achievement_really_bored">CgkI5ai8n_8fEAIQAQ</string>
+    <string name="achievement_bored">CgkI5ai8n_8fEAIQAQ</string>
+    <string name="achievement_humble">CgkI5ai8n_8fEAIQBA</string>
+    <string name="achievement_arrogant">CgkI5ai8n_8fEAIQBQ</string>
+    <string name="achievement_leet">CgkI5ai8n_8fEAIQBg</string>
+
+    <!-- Facebook services -->
+    <string name="facebook_app_id">309794886124104</string>
+    <string name="fb_login_protocol_scheme">fb309794886124104</string>
+
+
+</resources>

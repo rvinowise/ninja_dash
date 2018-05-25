@@ -1,0 +1,3 @@
+include ':app'
+include ':org.rvinowise.game_engine'
+project(':org.rvinowise.game_engine').projectDir = new File('D:\\program\\android\\game_engine')

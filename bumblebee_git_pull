@@ -1,0 +1,6 @@
+#!/bin/sh
+cd /home/rv/program/bumblebee/
+git stash
+git pull
+pause
+

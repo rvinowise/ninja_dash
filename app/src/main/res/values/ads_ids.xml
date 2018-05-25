@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Bumblebee-Jumper</string>
+
+    <!-- Ads -->
+    <string name="app_admob_id">ca-app-pub-5352818398814409~1999466172</string>
+
+    <string name="interstitial_ad_test">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="rewarded_ad_test">"ca-app-pub-3940256099942544/5224354917"</string>
+
+    <string name="bumblebee_interstitial_ad_1">ca-app-pub-5352818398814409/6429665779</string>
+    <string name="bumblebee_rewarded_ad">ca-app-pub-5352818398814409/2784868577</string>
+</resources>
